@@ -5,6 +5,7 @@ import ToolingIcon from "./icons/IconTooling.vue";
 import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
+import CardItem from "./CardItem.vue";
 </script>
 
 <template>
@@ -118,4 +119,8 @@ import SupportIcon from "./icons/IconSupport.vue";
       >becoming a sponsor</a
     >.
   </WelcomeItem>
+  <CardItem>
+    <template #heading>Card Title</template>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </CardItem>
 </template>

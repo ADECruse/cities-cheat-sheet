@@ -5,7 +5,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   <header>
-    <img
+    <h1>Cities: Skylines Cheat Sheet</h1>
+    <!-- <img
       alt="Vue logo"
       class="logo"
       src="@/assets/logo.svg"
@@ -20,7 +21,7 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-    </div>
+    </div> -->
   </header>
 
   <RouterView />
@@ -30,6 +31,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 header {
   line-height: 1.5;
   max-height: 100vh;
+  grid-row: 1;
+  grid-column: 1;
 }
 
 .logo {
