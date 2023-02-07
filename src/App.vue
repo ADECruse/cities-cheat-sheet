@@ -31,6 +31,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 header {
   line-height: 1.5;
   max-height: 100vh;
+  color: #0AC8FF;
   grid-row: 1;
   grid-column: 1;
 }
