@@ -1,3 +1,14 @@
+
+<script lang="ts">
+ 
+export default {
+  data() {
+    return {
+      show: true,
+    }
+  }
+ };
+</script>
 <template>
   <section class="card">
     <header class="card-header">
@@ -7,8 +18,9 @@
       <h2>
         <slot name="heading"></slot>
       </h2>
+      <button @click="show = !show" class="show-btn">Toggle</button>
     </header>
-    <div class="card-body">
+    <div v-if="show" class="card-body">
       <slot></slot>
     </div>
   </section>
@@ -33,5 +45,8 @@ color: #0AC8FF;
 .card-body {
     color: white;
   padding: 16px;
+}
+.show-btn {
+  text-align: right;
 }
 </style>

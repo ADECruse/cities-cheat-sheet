@@ -3,6 +3,7 @@ import CardItem from './CardItem.vue';
 </script>
 
 <template>
+    <SideNav></SideNav>
     <CardItem>
         <template #heading>Realistic Grades</template>
         Each square is 8 meters long.
