@@ -11,7 +11,7 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  /* color: hsla(160, 100%, 37%, 1); */
   transition: 0.4s;
 }
 
@@ -29,8 +29,8 @@ a,
 
   #app {
     display: grid;
-    grid-template-rows: 100px auto;
-    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 1;
     padding: 0 2rem;
   }
 }

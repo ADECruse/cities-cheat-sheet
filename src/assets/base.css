@@ -19,6 +19,7 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --cities-c-text-1: #0ac8ff;
 }
 
 /* semantic color variables for this project */
@@ -30,8 +31,8 @@
   --color-border: var(--vt-c-divider-light-2);
   --color-border-hover: var(--vt-c-divider-light-1);
 
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --color-heading: var(--cities-c-text-1);
+  --color-text: var(--cities-c-text-1);
 
   --section-gap: 160px;
 }
@@ -45,8 +46,8 @@
     --color-border: var(--vt-c-divider-dark-2);
     --color-border-hover: var(--vt-c-divider-dark-1);
 
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-heading: var(--cities-c-text-1);
+    --color-text: var(--cities-c-text-1);
   }
 }
 
