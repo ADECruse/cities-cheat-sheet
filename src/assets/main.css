@@ -8,6 +8,12 @@
   font-weight: normal;
 }
 
+a {
+  text-decoration: none;
+    color: var(--cities-c-text-1);
+    transition: 0.4s;
+}
+
 a,
 .green {
   text-decoration: none;
@@ -17,20 +23,20 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: #141e32;
   }
 }
 
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    place-items: top center;
   }
 
   #app {
     display: grid;
     grid-template-rows: 100px auto 100px;
-    grid-template-columns: 1;
+    grid-template-columns: 100%;
     padding: 0 2rem;
   }
 }

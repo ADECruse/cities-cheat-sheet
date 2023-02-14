@@ -47,7 +47,7 @@
     --color-border-hover: var(--vt-c-divider-dark-1);
 
     --color-heading: var(--cities-c-text-1);
-    --color-text: var(--cities-c-text-1);
+    --color-text: var(--vt-c-text-dark-1);
   }
 }
 

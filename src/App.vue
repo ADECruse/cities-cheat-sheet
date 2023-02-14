@@ -25,15 +25,24 @@ import HelloWorld from "./components/HelloWorld.vue";
   </header>
 
   <RouterView />
+  <footer>
+    <p>
+      Built by <a href="https://www.alancruse.me"><b>Alan D. E. Cruse</b></a>
+    </p>
+    <p><a href="https://github.com/ADECruse">Github Source</a></p>
+    <p>Last updated:</p>
+  </footer>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
-  color: #0AC8FF;
+  color: #0ac8ff;
   grid-row: 1;
   grid-column: 1;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 .logo {
@@ -69,7 +78,8 @@ nav a:first-of-type {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
     padding-right: calc(var(--section-gap) / 2);
   }
 
@@ -90,6 +100,14 @@ nav a:first-of-type {
 
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+
+  footer {
+    grid-row: 3;
+    grid-column: 1;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
   }
 }
 </style>
