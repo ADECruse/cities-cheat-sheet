@@ -24,7 +24,7 @@ import TheOverview from "./components/TheOverview.vue";
       </nav>
     </div> -->
   </header>
-  <TheOverview/>
+  <TheOverview />
   <RouterView />
   <footer>
     <p>
@@ -107,8 +107,10 @@ nav a:first-of-type {
     grid-row: 4;
     grid-column: 1;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-around;
+    /* min-width: 100%; */
+    background-color: black;
   }
 }
 </style>

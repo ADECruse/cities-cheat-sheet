@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import TheWelcome from "../components/TheWelcome.vue";
 import TheTips from "@/components/TheTips.vue";
-// import TheSideNav from "@/components/TheSideNav.vue";
 </script>
 
 <template>

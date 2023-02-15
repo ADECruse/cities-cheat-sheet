@@ -31,17 +31,14 @@ export default {
 #sidemenu {
   display: flex;
   min-width: 300px;
-  /* grid-column-start: 2;
-  grid-row-start: 1;
-  grid-row-end: 2; */
+  height: 100%;
   flex: auto;
   flex-direction: column;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-
-  
+  background-color: black;  
 }
 
 #sidemenu a {
@@ -52,18 +49,20 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 6px;
 }
 
 .btn-side-nav {
   background-color: var(--color-background-mute);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
+  margin: 2px;
 }
 
 .btn-side-nav:hover {

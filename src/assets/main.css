@@ -28,7 +28,7 @@ hr {
 
 @media (hover: hover) {
   a:hover {
-    background-color: #141e32;
+    color: var(--cities-c-text-2);
   }
 }
 

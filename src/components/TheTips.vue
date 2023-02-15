@@ -21,6 +21,10 @@ export default {
 <template>
   <div class="grid">
     <TheSideNav class="nav-item" v-bind:cards="cardsList"></TheSideNav>
+    <header>
+      <h2>The Cheatsheets</h2>
+      <hr>
+    </header>
     <CardItem
       ><template #title>Road Distance to Buildings</template>
       <template #contents>
@@ -70,32 +74,21 @@ export default {
 
       <template #author>Barry</template>
     </CardItem>
-    <!-- <CardItem>
-    <template #heading>Road Distance to Buildings</template>
-    <template #contents
-      ><p>
-        Many service buildings can have up 2 tiles distance from a road and
-        still have a working connection. You can even build and zone in this gap
-      </p>
-
-      <p>
-        For example, draw a straight piece of road, place a train station next
-        to the road. Delete the road and redraw the road 2 tiles from the
-        station. The “no road connection” notification will disappear and the
-        train station will function as before!
-      </p></template
-    >
-  </CardItem> -->
   </div>
 </template>
 
 <style scoped>
 .grid {
   display: grid;
-  grid-template-columns: 2fr 1;
+  grid-template-columns: 100%;
   grid-template-rows: auto;
+  /* justify-items: center; */
 }
 .nav-item {
   grid-column-start: 2;
+}
+
+hr {
+  margin: 10px 0px;
 }
 </style>

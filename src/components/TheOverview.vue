@@ -22,7 +22,7 @@ export default {};
 .overview {
   grid-row-start: 2;
   grid-row-end: 2;
-  padding: 16px;
+  padding: 16px 0px;
 }
 hr {
   margin: 10px 0px;
