@@ -6,8 +6,8 @@ export default {
   data() {
     return {
       cardsList: [
-        { title: "Realistic Road & Rail Grades" },
-        { title: "Road Distance to Buildings" },
+        { id: "1", title: "Realistic Road & Rail Grades" },
+        { id: "2", title: "Road Distance to Buildings" },
       ],
     };
   },
@@ -20,10 +20,10 @@ export default {
 
 <template>
   <div class="grid">
-    <TheSideNav class="nav-item" v-bind:cards="cardsList"></TheSideNav>
+    <TheSideNav class="nav-item" :cards="cardsList"></TheSideNav>
     <header>
       <h2>The Cheatsheets</h2>
-      <hr>
+      <hr />
     </header>
     <CardItem
       ><template #title>Road Distance to Buildings</template>
@@ -40,7 +40,8 @@ export default {
           station. The “no road connection” notification will disappear and the
           train station will function as before!
         </p>
-      </template></CardItem
+      </template>
+      <template #author>Dave </template></CardItem
     >
     <!-- <CardItem v-for="card in cards" :key="card.id" :title="card.title" /> -->
     <CardItem>
@@ -74,6 +75,7 @@ export default {
 
       <template #author>Barry</template>
     </CardItem>
+    <LinksCard></LinksCard>
   </div>
 </template>
 

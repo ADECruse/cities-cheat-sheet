@@ -22,7 +22,7 @@ export default {
       <button @click="expandAll" class="btn-side-nav">Expand All</button>
     </div>
 
-    <template v-for="card in cards">
+    <template v-for="card in cards" :key="card.id">
       <a>{{ card.title }}</a>
     </template>
   </nav>
@@ -38,7 +38,7 @@ export default {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: black;  
+  background-color: black;
 }
 
 #sidemenu a {
