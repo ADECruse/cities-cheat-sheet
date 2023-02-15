@@ -1,3 +1,14 @@
+# Cities: Skylines Cheatsheet
+
+## Motivation
+This single page application project was inspired by the [Factorio Cheatsheet](https://factoriocheatsheet.com) and I wanted to create something similar using Vue.js.
+
+## To-Do
+- [ ] Add ‘Overview’ section
+- [ ] Add SideNav
+- [ ] Add more content
+- [ ] Add section for mod info
+
 # cities-cheat-sheet
 
 This template should help get you started developing with Vue 3 in Vite.
