@@ -7,7 +7,7 @@ This single page application project was inspired by the [Factorio Cheatsheet](h
 ## To-Do
 
 - [ ] Add ‘Overview’ section
-- [ ] Add SideNav
+- [ ] Add Routing to SideNav
 - [ ] Add more content
 - [ ] Add section for mod info
 - [ ] Add github api call for commit info
