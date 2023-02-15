@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
+import TheOverview from "./components/TheOverview.vue";
 </script>
 
 <template>
@@ -23,7 +24,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       </nav>
     </div> -->
   </header>
-
+  <TheOverview/>
   <RouterView />
   <footer>
     <p>
@@ -103,7 +104,7 @@ nav a:first-of-type {
   }
 
   footer {
-    grid-row: 3;
+    grid-row: 4;
     grid-column: 1;
     display: flex;
     align-content: center;

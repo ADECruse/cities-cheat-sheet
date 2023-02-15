@@ -21,6 +21,11 @@ a,
   transition: 0.4s;
 }
 
+hr {
+  color: var(--cities-c-text-1);
+  border-top: 1px;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: #141e32;
@@ -35,7 +40,7 @@ a,
 
   #app {
     display: grid;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 100px 200px auto 100px;
     grid-template-columns: 100%;
     padding: 0 2rem;
   }
